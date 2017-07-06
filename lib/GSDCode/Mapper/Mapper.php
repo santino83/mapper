@@ -42,4 +42,13 @@ interface Mapper
      */
     function map($source, $destinationClass);
     
+    /**
+     * Map Sources into a new array of $destinationClass objects
+     *
+     * @param array $source
+     * @param string $destinationClass
+     * @throws MapperException
+     */
+    function mapAll(Array $source, $destinationClass);
+    
 }
