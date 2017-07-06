@@ -1,0 +1,11 @@
+
+
+converters:
+    my_first_converter:
+        classA: A_CLASS
+        classB: B_CLASS
+mappings:
+    - classA: Tests\Data\Bean\ChildBean1       
+      classB: Tests\Data\Target\TargetChild1
+foo:
+    bar: Hello World!

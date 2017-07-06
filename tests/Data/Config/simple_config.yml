@@ -1,0 +1,19 @@
+## YAML Template.
+
+converters:
+    - my_first_converter
+    - my_second_converter
+
+mappings:
+    - classA: Tests\Data\Bean\ChildBean1       
+      classB: Tests\Data\Target\TargetChild1
+      
+    - classA: Tests\Data\Bean\ChildBean2
+      classB: Tests\Data\Target\TargetChild2
+      fields:
+          - fieldA: childProp1
+            fieldB: prop4
+          - fieldA: childProp2
+            fieldB: prop5
+          - fieldA: childProp3
+            fieldB: prop6

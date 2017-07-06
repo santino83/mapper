@@ -1,0 +1,4 @@
+
+mappings:
+    - classA: Tests\Data\Bean\NotExistent1       
+      classB: Tests\Data\Target\NotExistent1

@@ -1,0 +1,33 @@
+{
+    "name": "gsdcode/mapper",
+    "description": "Object mapper for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giorgio M. Santini",
+            "email": "gsantini@voiptech.it"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.6",
+        "symfony/yaml": "^3.3",
+        "symfony/property-info": "^3.3",
+        "symfony/property-access": "^3.3",
+        "symfony/config": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "minimum-stability": "stable"
+}

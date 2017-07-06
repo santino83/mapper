@@ -1,0 +1,6 @@
+
+settings:
+    date_format: Y-m-d
+
+converters:
+    - extra_converter
